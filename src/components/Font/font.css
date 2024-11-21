@@ -1,0 +1,46 @@
+ .font-selector-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between elements */
+  }
+  
+   .font-label,
+  .weight-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .font-dropdown,
+   .weight-dropdown,
+   .size-dropdown {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  select {
+    outline: none;
+  }
+
+   .subt {
+    display: flex;
+    justify-content: start;
+    margin: 0.2rem 0;
+    font-size: 12px;
+    color: rgb(132, 132, 132);
+    font-weight: 700;
+  }
+
+    .line-height-selector-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+    .line-height-dropdown {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }

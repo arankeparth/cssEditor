@@ -1,0 +1,45 @@
+{
+    "manifest_version": 3,
+    "name": "React Code Editor Sidebar",
+    "version": "1.0",
+    "description": "Edit React components in real-time and update the code",
+    "permissions": [
+        "scripting",
+        "tabs",
+        "activeTab",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "action": {
+        "default_popup": "js/index.html",
+        "default_title": "Open Editor Sidebar"
+    },
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "js/content.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "js/inject.js",
+                "js/index.html",
+                "js/index.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}

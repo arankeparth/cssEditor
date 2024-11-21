@@ -1,0 +1,30 @@
+.prompt {
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    padding: 0.2rem;
+    color: gray;
+    font-weight: 300;
+    min-height: 5rem;
+}
+
+.submit-butt {
+    color: white;
+    background-color: black;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    scale: 1.02;
+
+}
+
+textarea {
+    margin: 0;
+}

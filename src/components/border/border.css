@@ -1,0 +1,24 @@
+.border-editor {
+  display: flex;
+  gap: 10px;
+}
+
+.border-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+} 
+
+ label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+ input[type='number'],
+ select,
+ input[type='color'] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

@@ -1,0 +1,19 @@
+.align {
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.align:hover {
+    scale: 1.1;
+    border: 1px solid rgb(48, 114, 176);
+}
+
+.first {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.last {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

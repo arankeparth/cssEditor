@@ -1,0 +1,39 @@
+.color-picker-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    width: 7rem;
+    /* Space between the color picker and label */
+  }
+  
+   .hidden-input{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    z-index: 100000000000000000000000;
+  }
+  
+   .color-label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+   .color-display {
+    cursor: pointer;
+    z-index: 10000000;
+  }
+
+   .opacity {
+    flex: 1;
+  }
+
+   input {
+    outline: none;
+  }
+
